@@ -1,5 +1,5 @@
 # Enterprise AI Research Agent
-### Modus Enterprise AI Build Challenge — Assignment 9
+
 
 An AI application that conducts **structured, traceable enterprise research at
 scale**: give it any research topic, and it plans sub-questions, searches the
