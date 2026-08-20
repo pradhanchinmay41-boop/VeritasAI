@@ -34,7 +34,11 @@ st.set_page_config(
 # Session State Initialization
 # ---------------------------------------------------------
 if "backend_url" not in st.session_state:
-    st.session_state["backend_url"] = os.environ.get("BACKEND_URL", "http://localhost:8000")
+    st.session_state["backend_url"] = os.environ.get(
+        "BACKEND_URL",
+        "http://127.0.0.1:8000"
+    )
+
 if "last_topic_id" not in st.session_state:
     st.session_state["last_topic_id"] = None
 

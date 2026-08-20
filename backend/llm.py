@@ -23,7 +23,7 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-20b"  
 
 
 def invoke_llm(prompt: str, temperature: float = 0.2) -> str:
